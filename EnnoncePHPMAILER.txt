@@ -1,0 +1,34 @@
+// énoncé du Mercredi 03 Mai 
+
+tuto video POO PHP :
+
+- https://www.grafikart.fr/formations/programmation-objet-php/objets-poo
+
+- https://www.youtube.com/watch?v=KWKrxf7ydpU&list=PLXGXMIp685ivYLTq9jhWrR_rUiVTNj239
+
+Pour demain et pour faire une pause POO pur concept/théorie dès maintenant : vous utilisiez déjà les objets avec l'objet PDO quand vous faisiez new PDO() :
+On commencera ces exercices demain en pair programming :wink: mais vous pouvez commencer à regarder.
+
+1. Les mails en POO avec PHPMAILER.
+Générez un mail simple puis un mail avec une image ou pdf en fichier joint et le poser sur le serveur FTP de l'autre fois :
+
+https://www.dewep.net/realisations/envoyer-un-email-avec-phpmailer
+
+https://github.com/PHPMailer/PHPMailer/wiki/Tutorial
+
+http://www.connecty.fr/tutoriels/envoyer-un-mail-avec-phpmailer.php
+
+2 . Générez un PDF avec un logo en haut à gauche, du contenu(dizaine de ligne) au milieu et un pied de page avec une adresse en utilisant l'objet FPDF de la librairie du même nom:
+
+http://www.fpdf.org/
+
+Tutoriels:
+- http://www.fpdf.org/fr/tutorial/index.php
+- http://fpdf.org/en/script/
+- https://www.sanwebe.com/2011/05/creating-pdf-using-php-fpdf-library
+
+
+On corrigera jeudi matin en coding dojo
+
+Pour télécharger la librairie PHPMailer, utilisez plutôt ce dépot github https://github.com/PHPMailer/PHPMailer (download zip) 
+et faites un require_once sur le fichier PHPMailerAutoload.php contenu dedans pour pouvoir utiliser la classe PHPMailer
