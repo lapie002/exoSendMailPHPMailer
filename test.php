@@ -32,7 +32,8 @@ if(!$_POST) exit;
           function Header()
           {
               // Logo
-              $this->Image('uploads/logo.png',10,6,30);
+              //$this->Image('uploads/logo.png',10,6,30);
+              $this->Image('logo.jpg');
               // Police Arial gras 15
               $this->SetFont('Arial','B',15);
               // Décalage à droite
@@ -82,6 +83,9 @@ if(!$_POST) exit;
         //$pdf->SetFontSize(10);
         $pdf->Write(5,"Congratulations! You have generated a PDF ligne : $i \n\n");
       }
+      $pdf->Image('logo.jpg');
+      $pdf->Image('http://chart.googleapis.com/chart?cht=p3&chd=t:60,40&chs=250x100&chl=Hello|World',60,30,90,0,'PNG');
+
 
       //Output the document
       $filename="uploads/test.pdf";
