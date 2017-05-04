@@ -51,9 +51,8 @@ $mail->Body = $message;
 
 // file as an attached file
 //$mail->AddAttachment('./mon_fichier_joint.zip');
-// $mail->AddAttachment($file);
-
-$mail->AddAttachment($filename);
+$mail->AddAttachment($file);
+// $mail->AddAttachment($filename);
 
 // Envoi du mail avec gestion des erreurs
 if(!$mail->Send()) {
